@@ -31,11 +31,11 @@ CREATE TABLE IF NOT EXISTS question
   ); 
 
 INSERT INTO user (username, password, first_name, last_name, points, email, role, age) VALUES ('admin', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'admin', 'admin', 0, 'admin@gmail.com', 'Admin', 0);
-INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('joaogamer', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'joao', 'gamer', 120, 'joao@gmail.com');
-INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('josegamer', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'jose', 'gamer', 80, 'jose@gmail.com');
-INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('mariagamer', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'maria', 'gamer', 30, 'maria@gmail.com');
-INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('johngamer', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'john', 'gamer', 343, 'john@gmail.com');
-INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('doegamer', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'doe', 'gamer', 343, 'doe@gmail.com');
+INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('pernalonga', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'pernalonga', 'gamer', 120, 'pernalonga@gmail.com');
+INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('patolino', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'patolino', 'gamer', 80, 'patolino@gmail.com');
+INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('gaguinho', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'gaguinho', 'gamer', 30, 'gaguinho@gmail.com');
+INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('john', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'john', 'doe', 343, 'john@gmail.com');
+INSERT INTO user (username, password, first_name, last_name, points, email) VALUES ('taz', '$2y$12$4KZL2UqQWH3oUoFo8.NruuARIacRrXelMIuF7qrm6m5EMPX9w/Ovi ', 'taz', 'gamer', 343, 'taz@gmail.com');
 
 INSERT INTO question (question, correct_answer, alternative1, alternative2, alternative3) 
   VALUES ('What name did Mario, from Super Mario Brothers, originally have?', 'Ossan', 'Jumpman', 'Video', 'Mario');
