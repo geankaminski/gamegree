@@ -19,21 +19,25 @@ Após configuração do banco de dados, no diretório do projeto execute:
 
 ### `cd backend`
 
+### `npm install`
+
 ### `npm run dev`
 
 Em outro terminal, no diretório do projeto execute:
 
 ### `cd frontend`
 
+### `npm install`
+
 ### `npm run start`
 
-A senha padrão para os usuários criados é '123456'.
+A senha padrão para os usuários criados é '123456'. 
 
 ## Próximas etapas
 
 - Adaptar a UI da aplicação tomando como base um design predefinido. 
 - Correção de bugs e melhorias de performance.
 - Usuário administrador poderá excluir ou bloquear um usuário específico.
-- Implementar a requisição das questões para o jogador baseadas no seu nível atual.
+- Implementar a requisição e envio das questões para o jogador baseadas no seu nível atual.
 
 

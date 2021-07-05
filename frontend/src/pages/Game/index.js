@@ -16,7 +16,7 @@ class Game extends Component {
     message: "",
     clicked: false,
     lifes: 3,
-    lengthOfQuestions: 2
+    lengthOfQuestions: 10
   };
 
   async componentDidMount(){
